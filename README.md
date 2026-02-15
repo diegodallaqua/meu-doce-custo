@@ -63,7 +63,7 @@ More than a utility, Meu Doce Custo is a strategic tool for professionals who wa
 
 ### 1) Clone the repository
 ```bash
-git clone git clone https://github.com/diegodallaqua/meu-doce-custo
+git clone https://github.com/diegodallaqua/meu-doce-custo
 cd meu-doce-custo
 ```
 ### 2) Install dependencies
