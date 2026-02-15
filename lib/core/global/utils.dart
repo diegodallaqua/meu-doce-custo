@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'custom_colors.dart';
+import 'theme/custom_colors.dart';
 
 class Utils {
   static void showToast({

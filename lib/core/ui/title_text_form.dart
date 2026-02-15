@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 
 class TitleTextForm extends StatelessWidget {
   TitleTextForm({required this.title, this.textAlign, Key? key}) : super(key: key);

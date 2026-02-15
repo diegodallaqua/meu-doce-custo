@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 
 class CustomFormField extends StatefulWidget {
   final bool secret;

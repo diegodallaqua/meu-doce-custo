@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 
 class PatternedButton extends StatelessWidget {
   const PatternedButton({

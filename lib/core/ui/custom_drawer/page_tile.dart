@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../global/custom_colors.dart';
+import '../../global/theme/custom_colors.dart';
 
 class PageTile extends StatelessWidget {
   const PageTile({

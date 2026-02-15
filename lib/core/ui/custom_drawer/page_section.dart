@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
-import '../../../stores/others/page_store.dart';
-import '../../../stores/others/user_manager_store.dart';
-import '../../../views/login/login_screen.dart';
+import '../../../features/auth/screens/login_screen.dart';
+import '../../../app/shell/stores/page_store.dart';
+import '../../../features/user/stores/user_manager_store.dart';
 import 'page_tile.dart';
 
 class PageSection extends StatelessWidget {
@@ -51,7 +51,7 @@ class PageSection extends StatelessWidget {
               await userManagerStore.logout();
               Navigator.of(context).pushReplacement(
                 MaterialPageRoute(
-                  builder: (_) => LoginScreen(),
+                  builder: (_) => const LoginScreen(),
                 ),
               );
             },

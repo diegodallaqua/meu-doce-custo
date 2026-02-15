@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import '../../../stores/others/page_store.dart';
-import '../../global/custom_colors.dart';
+import '../../../app/shell/stores/page_store.dart';
+import '../../global/theme/custom_colors.dart';
 import 'drawer_header.dart';
 import 'page_section.dart';
 

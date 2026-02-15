@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 
 class PasswordDivider extends StatelessWidget {
   const PasswordDivider({super.key});

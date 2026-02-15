@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 
 class ListDivider extends StatelessWidget {
   const ListDivider({Key? key}) : super(key: key);

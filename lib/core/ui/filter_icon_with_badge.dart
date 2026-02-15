@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../global/custom_colors.dart';
+import '../global/theme/custom_colors.dart';
 import 'package:badges/badges.dart' as badges;
 
 class FilterIconWithBadge extends StatelessWidget {
